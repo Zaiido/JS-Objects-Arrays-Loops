@@ -46,12 +46,14 @@ console.log("The minimum value is:", minValue);
 
 console.log("\n-------------Exercise 4-------------\n");
 
-modelArray = [4, 8, 1];
+modelArray = [4, 8, 1, 10];
+let evenNumbersArray = [];
 for (let i = 0; i < modelArray.length; i++) {
   if (modelArray[i] % 2 === 0) {
-    console.log(modelArray[i]);
+    evenNumbersArray.push(modelArray[i]);
   }
 }
+console.log(evenNumbersArray);
 
 /* EXTRA 5
  Write a piece of code for deleting only even entries from an array.
