@@ -38,7 +38,7 @@ for (let i = 0; i < modelArray.length; i++) {
     minValue = modelArray[i];
   }
 }
-console.log("The maximum value is:", minValue);
+console.log("The minimum value is:", minValue);
 
 /* EXTRA 4
  Write a piece of code for getting only even numerical values from an array.
